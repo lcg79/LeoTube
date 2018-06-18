@@ -1,0 +1,33 @@
+body {
+
+}
+
+#video-list .panel-body {
+    padding-right: 0px;
+}
+
+
+.video-image-mask {
+    width: 185px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.video-image-mask .video-image {
+    width: 105%;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.video-title a {
+    color: #888;
+}
+
+
+.btn-filter {
+    display: block;
+    margin-top: 5px;
+}
