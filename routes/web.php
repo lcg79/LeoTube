@@ -28,6 +28,11 @@ Route::get('/', array(
     'uses' => 'HomeController@index'
 ));
 
+// controlador home redirección a /
+Route::get('/home', function () {
+    return redirect()->route('home');
+});
+
 // Rutas del controlador de vídeos, form de creación
 Route::get('/crear-video',array(
     'as' => 'createVideo',
