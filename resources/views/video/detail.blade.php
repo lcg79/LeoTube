@@ -20,8 +20,7 @@
         <div id="video-info">
             <div class="panel panel-default video-data">
                 <div class="panel-heading">
-                    Subido por <strong>{{ $video->user->name . ' ' . $video->user->surname }}
-                    hace {{ \FormatTime::LongTimeFilter($video->created_at) }}</strong> ({{$video->created_at}})
+                    Subido por <strong>{{ $video->user->name . ' ' . $video->user->surname }} hace {{ \FormatTime::LongTimeFilter($video->created_at) }}</strong> ({{$video->created_at}})
                 </div>
                 <div class="panel-body">
                     {{ $video->description }}

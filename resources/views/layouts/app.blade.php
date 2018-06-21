@@ -91,8 +91,12 @@
     <div class="clearfix"></div>
 
     <footer class="col-md-10 col-md-offset-1">
-        <hr/>
-        <p>Práctica YouTube curso Laravel 5 © Leo Catalinas 2018</p>
+        <div class="container">
+            <div class="row">
+                <hr/>
+                <p>Práctica YouTube curso Laravel 5 © Leo Catalinas 2018</p>
+            </div>
+        </div>
     </footer>
 
 
